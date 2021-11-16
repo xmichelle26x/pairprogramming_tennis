@@ -4,12 +4,16 @@ playerOne = 0
 playerTwo = 0
 
 playerOne = {
-    "cero":0,
-    
+    "puntaje": 0,
+    "nombre": "playerOne"
 }
 
 playerTwo= {
+    "puntaje": 0,
+    "nombre": "playerTwo"
 }
 
 def puntuacion():
-    if playerOne.
+    playerOne.values()[0] = 15
+
+print puntuacion()
